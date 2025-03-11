@@ -459,6 +459,33 @@ h3 {
 	z-index: 2;
 }
 
+/* CERTIFICATE BOX */
+.certification-container {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.certification-box {
+	text-align: center;
+	width: 30%;
+}
+
+.certification-box img {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.certification-box h3 {
+	margin-top: 10px;
+	font-size: 1rem;
+	color: #333;
+}
+
+
 /* ----- CONTACT BOX ----- */
 .contact-info {
 	position: relative;

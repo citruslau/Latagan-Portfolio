@@ -33,7 +33,7 @@ function headerShadow() {
 
 /* ----- TYPING EFFECT ----- */
 var typingEffect = new Typed(".typedText", {
-  strings: ["Designer", "Youtuber", "Developer"],
+  strings: ["Developer", "Designer", "Freelancer"],
   loop: true,
   typeSpeed: 100,
   backSpeed: 80,
@@ -60,6 +60,9 @@ sr.reveal('.featured-image', { delay: 300 })
 
 /* -- PROJECT BOX -- */
 sr.reveal('.project-box', { interval: 200 })
+
+/* -- CERTIFICATIONS BOX -- */
+sr.reveal('.certifications', { interval: 200 })
 
 /* -- HEADINGS -- */
 sr.reveal('.top-header', {})
